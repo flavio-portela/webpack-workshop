@@ -2,7 +2,7 @@ const compression = require("compression");
 const express = require("express");
 const path = require("path");
 const app = express();
-const PORT = 3000;
+const PORT = 8888;
 
 app.use(compression());
 app.use(express.static("dist"));
